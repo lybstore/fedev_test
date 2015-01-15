@@ -9,4 +9,4 @@ In this excercise we would like you to build a web component similar to this [sc
 
 Amend this Readme and use your commits to outline the component you have created and the decisions that you have made.
 
-Plese fork this repository and commit your changes for review.
+Please fork this repository and commit your changes for review.
