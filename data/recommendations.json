@@ -1,0 +1,60 @@
+{  
+   "placements":[  
+      {  
+         "message":"If you like this, you might be into these",
+         "items":[  
+            {  
+               "id":"5110466610054",
+               "name":"Light Before Dark Surplice Kimono Top in Black",
+               "linkURL":"http://recs.richrelevance.com/rrserver/click?a=5f1f75b4-e67b-11df-9878-1231…oductdetail.jsp%3Fid%3D5110466610054%26color%3D001%26parentid%3DMORE_IDEAS",
+               "imageURL":"http://images.urbanoutfitters.co.uk/is/image/UrbanOutfittersEU/5110466610054_001_b",
+               "rating":"$RATING$",
+               "reviews":"$REVIEWS$",
+               "price":"42.00",
+               "$$hashKey":"045"
+            },
+            {  
+               "id":"5129461665002",
+               "name":"Séssun David High-Shine A-Line Skirt in Navy",
+               "linkURL":"http://recs.richrelevance.com/rrserver/click?a=5f1f75b4-e67b-11df-9878-1231…oductdetail.jsp%3Fid%3D5129461665002%26color%3D041%26parentid%3DMORE_IDEAS",
+               "imageURL":"http://images.urbanoutfitters.co.uk/is/image/UrbanOutfittersEU/5129461665002_041_b",
+               "rating":"$RATING$",
+               "reviews":"$REVIEWS$",
+               "price":"125.00",
+               "$$hashKey":"046"
+            },
+            {  
+               "id":"5112438571193",
+               "name":"Sparkle & Fade Cutwork Woven Mix Top",
+               "linkURL":"http://recs.richrelevance.com/rrserver/click?a=5f1f75b4-e67b-11df-9878-1231…oductdetail.jsp%3Fid%3D5112438571193%26color%3D001%26parentid%3DMORE_IDEAS",
+               "imageURL":"http://images.urbanoutfitters.co.uk/is/image/UrbanOutfittersEU/5112438571193_001_b",
+               "rating":"$RATING$",
+               "reviews":"$REVIEWS$",
+               "price":"35.00",
+               "$$hashKey":"047"
+            },
+            {  
+               "id":"5133447010232",
+               "name":"Sparkle & Fade 4-Pocket Raincoat in Pink",
+               "linkURL":"http://recs.richrelevance.com/rrserver/click?a=5f1f75b4-e67b-11df-9878-1231…oductdetail.jsp%3Fid%3D5133447010232%26color%3D066%26parentid%3DMORE_IDEAS",
+               "imageURL":"http://images.urbanoutfitters.co.uk/is/image/UrbanOutfittersEU/5133447010232_066_b",
+               "rating":"$RATING$",
+               "reviews":"$REVIEWS$",
+               "price":"85.00",
+               "$$hashKey":"048"
+            },
+            {  
+               "id":"5319442655761",
+               "name":"Adidas Stan Smith Trainers in Black and White",
+               "imageURL":"http://images.urbanoutfitters.co.uk/is/image/UrbanOutfittersEU/5319442655761_001_b",
+               "rating":"$RATING$",
+               "reviews":"$REVIEWS$",
+               "price":"72.00",
+               "$$hashKey":"049"
+            }
+         ],
+         "strategy":"ClickEV",
+         "placement_name":""
+      }
+   ]
+}
