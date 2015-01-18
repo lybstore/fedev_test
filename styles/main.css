@@ -1,0 +1,55 @@
+/* line 1, ../sass/_reset.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 7, ../sass/_reset.scss */
+li {
+  list-style: none;
+}
+
+/* line 1, ../sass/_home.scss */
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 7, ../sass/_home.scss */
+.recommended-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* line 16, ../sass/_home.scss */
+.listed-items ul {
+  width: 100%;
+  display: block;
+}
+/* line 20, ../sass/_home.scss */
+.listed-items li {
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+  width: 16.999%;
+}
+
+/* line 28, ../sass/_home.scss */
+.item__img {
+  width: 100%;
+}
+
+/* line 32, ../sass/_home.scss */
+.item {
+  text-decoration: none;
+  color: red;
+}
+
+/* line 37, ../sass/_home.scss */
+.item:hover {
+  cursor: pointer;
+}
