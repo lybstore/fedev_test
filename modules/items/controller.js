@@ -1,6 +1,8 @@
-var itemsController = function(itemsService) {
+var itemsController = function(currencies, itemsService, translationConf) {
 
     itemsCtrl = this;
+
+    itemsCtrl.actualCurrency = currencies[translationConf.selectedLang]
 
     itemsService.getData().success(function(data) {
         itemsCtrl.data = data.placements;
