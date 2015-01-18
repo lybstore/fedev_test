@@ -1,0 +1,35 @@
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.recommended-heading{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.listed-items{
+	ul{
+		width: 100%;
+		display: block;
+	}
+	li{
+		display: inline-block;
+		float: left;
+		margin: 0 10px;
+		width: 16.999%;
+	}
+}
+
+.item__img{
+	width: 100%;
+}
+
+.item {
+    text-decoration: none;
+    color: red;
+    pointer: cursor;
+}
