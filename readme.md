@@ -30,3 +30,8 @@ In order to see the currency change, amend the country intials 'en' to 'es'
 ### items folder
 
 The file structure in this folder is to modularize the code, this enables a decrease in size of controllers and in general is a good pratice.
+
+### The notourious $scope 
+
+This appilication does not the $scope, click on the link below to find out more
+http://jonathancreamer.com/working-with-all-the-different-kinds-of-scopes-in-angular/
