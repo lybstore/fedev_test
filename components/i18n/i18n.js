@@ -12,11 +12,14 @@ angular.module('translationModule',[])
 
         serv.translations = function(translationsObj) {
             serv.availableLanguages = translationsObj
-        }
+        };
+
+
 
         serv.$get = function() {
-            return serv.availableLanguages[serv.useLang]
+            return { messages: serv.availableLanguages, selectedLang: serv.useLang   }
         }
+
     })
 
     .controller('translationCtrl', function($element, translationConf) {
@@ -49,6 +52,8 @@ angular.module('translationModule',[])
 
     .filter('translation', ['translationConf',function(translationConf) {
         return function(input) {
-            return translationConf[input]
+            return translationConf.messages[translationConf.selectedLang][input]
         };
     }])
+
+
