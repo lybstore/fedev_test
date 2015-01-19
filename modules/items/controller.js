@@ -1,6 +1,6 @@
 var itemsController = function(currencies, itemsService, translationConf) {
 
-    itemsCtrl = this;
+    var itemsCtrl = this;
 
     itemsCtrl.actualCurrency = currencies[translationConf.selectedLang]
 
