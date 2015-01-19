@@ -20,10 +20,13 @@ The directive.js file features the scaffholding for the recommended section, it 
 
 The benefits of a directive, allows a cleaner way to pass methods to the directive using an attribute and decouple controller from directives. 
 
-
 ### Currency symbol change
 
-.constant with app.js is used to define currency symbols dependent upon the language. This demo demonstrates a currency symbol change in pounds and euro. ('currencies', {'en': "£", 'es': "€"})
+.constant within the app.js file (scripts/app.js) is used to define currency symbols dependent upon the language. This demo demonstrates a currency symbol change in pounds and euro. ('currencies', {'en': "£", 'es': "€"})
 
 In order to see the currency change, amend the country intials 'en' to 'es'
 ###### translationConfProvider.defaultLang('en');
+
+### items folder
+
+The file structure in this folder is to modularize the code, this enables a decrease in size of controllers and in general is a good pratice.
