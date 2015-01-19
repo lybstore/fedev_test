@@ -1,12 +1,10 @@
-<div class="listed-items" style="width: 100%" ng-if="ctrl.items" data-ng-repeat="item in ctrl.items">
+<div class="listed-items"  ng-if="ctrl.items" data-ng-repeat="item in ctrl.items">
     <ul>
         <li>
-            <a class="item" href="{{item.imageURL}}">
+            <a class="item" href="{{item.imageURL}}}">
                 <img class="item__img" src="{{item.imageURL}}" alt=""/>
+                <p class="item__object"> {{item.price | currency:ctrl.currency}}</p>
             </a>
-            <p class="item__object">{{item.price | currency:ctrl.currency}}</p>
         </li>
     </ul>
 </div>
-
-
