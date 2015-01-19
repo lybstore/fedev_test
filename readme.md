@@ -14,12 +14,14 @@ Please fork this repository and commit your changes for review.
 
 ### Home.html 
 
-Consist of the mark up for the recommended items directive. This file features the heading for the recommended section with a translation. The benefits of a directive, allows a cleaner way to pass methods to the directive using an attribute and decouple controller from directives. 
+This file features the mark up for the recommended items directive. The directive can be found in the ####### recommended folder. The directive.js file features the scaffholding for the recommended section, it wraps all elements within recommmeded items div. The directive also features a  translation filter, this enable a lanuage (i18n) translation within elements wrapped with the directive.
+
+The benefits of a directive, allows a cleaner way to pass methods to the directive using an attribute and decouple controller from directives. 
 
 
 ### Currency symbol change
 
 .constant with app.js is used to define currency symbols dependent upon the language. This demo demonstrates a currency symbol change in pounds and euro. ('currencies', {'en': "£", 'es': "€"})
 
-In order to see the currency change 
+In order to see the currency change, amend the country intials 'en' to 'es'
 ###### translationConfProvider.defaultLang('en');
