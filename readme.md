@@ -14,7 +14,7 @@ Please fork this repository and commit your changes for review.
 
 ### Home.html 
 
-This file features the mark up for the recommended items directive. The directive can be found in the ####### recommended folder. The directive.js file features the scaffholding for the recommended section, it wraps all elements within recommmeded items div. The directive also features a  translation filter, this enable a lanuage (i18n) translation within elements wrapped with the directive.
+This file features the mark up for the recommended items directive. The directive can be found in the recommended folder. The directive.js file features the scaffholding for the recommended section, it wraps all elements within recommmeded items div. The directive also features a  translation filter, this enable a lanuage (i18n) translation within elements wrapped with the directive.
 
 The benefits of a directive, allows a cleaner way to pass methods to the directive using an attribute and decouple controller from directives. 
 
