@@ -33,5 +33,5 @@ The file structure in this folder is to modularize the code, this enables a decr
 
 ### The notourious $scope 
 
-This appilication does not the $scope, click on the link below to find out more
+This appilication does not use the $scope, click on the link below to find out more
 http://jonathancreamer.com/working-with-all-the-different-kinds-of-scopes-in-angular/
