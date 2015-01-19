@@ -10,3 +10,16 @@ In this excercise we would like you to build a web component similar to this [sc
 Amend this Readme and use your commits to outline the component you have created and the decisions that you have made.
 
 Please fork this repository and commit your changes for review.
+
+
+Home.html 
+
+Consist of the mark up for the recommended items directive. This file features the heading for the recommended section with a translation. The benefits of a directive, allows a cleaner way to pass methods to the directive using an attribute and decouple controller from directives. 
+
+
+Currency symbol change
+
+.constant with app.js is used to define currency symbols dependent upon the language. This demo demonstrates a currency symbol change in pounds and euro. ('currencies', {'en': "£", 'es': "€"})
+
+In order to see the currency change 
+translationConfProvider.defaultLang('en');
