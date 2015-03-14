@@ -1,4 +1,4 @@
-# URBN Web Developer Exercise
+# JSON data directive
 
 In this excercise we would like you to build a web component similar to this [screenshot](recommendation_screenshot.png) using the [JSON](data/recommendations.json) provided. Creativity is accepted but do not alter the JSON. The componet you build should display images, prices and link to the product taking into consideration how it would work with i18n.
 
